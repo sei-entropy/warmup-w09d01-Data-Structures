@@ -18,15 +18,23 @@
 ## Hash Tables 
 
 ## Sets 
+A Set is an abstract data type that can store certain values, without any particular order, and no repeated values. It is a computer implementation of the mathematical concept of a finite Set. From Wikipedia
 
+The Set data structure is usually used to test whether elements belong to set of values. Rather then only containing elements, Sets are more used to perform operations on multiple values at once with methods such as union, intersect, etc…
+
+Complexity
+Average	 	 	 
+Access	Search	Insertion	Deletion
+-	O(n)	O(n)	O(n)
 ## Binary Trees 
 A binary tree is a special type of tree in which every node or vertex has either no child node or one child node or two child nodes. A binary tree is an important class of a tree data structure in which a node can have at most two children.
 
 Child node in a binary tree on the left is termed as 'left child node' and node in the right is termed as the 'right child node.'
 ### type of binary tree
 * full binary tree 
-![Arrarys](./img/)
+![Binary](./img/Full-Binary-Tree.png)
 * complete binary tree 
+![Binary](./img/Complete-Binary-Tree.png)
 
 
 
