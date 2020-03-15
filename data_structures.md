@@ -57,7 +57,7 @@ Hash tables support fast insert and search:
 
 ## Binary Trees 
 - A binary tree is a finite set of elements that are either empty or is partitioned into three disjointsubsets. The first subset contains a single element called the root of the tree. The other twosubsets are themselves binary trees called the left and right subtrees of the original tree. Aleft or right subtree can be empty. 
-- Each element of a binary tree is called a node of the tree. The following figure shows a binarytree with 9 nodes where A is the root.
+- Each element of a binary tree is called a node of the tree.
 ## Tries
 
 ## Balancing Binary Trees (AVL Tree)
