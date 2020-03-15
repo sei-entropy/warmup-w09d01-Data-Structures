@@ -122,6 +122,8 @@ Linked lists are often used because of their efficient insertion and deletion. T
 * Insert/delete at end O(1)
 * Insert/delete in middle O(1)+O(n)
 
+## Stack
+=======
 ## Stack 
 A stack is a basic data structure that can be logically thought of as a linear structure represented by a real physical stack or pile, a structure where insertion and deletion of items takes place at one end called top of the stack. 
 The basic implementation of a stack is also called a `LIFO` (Last In First Out) .
@@ -165,8 +167,12 @@ Rear is used to get the last item from a queue.
 ![](https://www.tutorialride.com/images/data-structures/queue-array.jpeg)
 
 
-## Hash Tables 
+## Hash Tables
 
+## Sets
+
+## Binary Trees
+=======
 
 a hash table is a data structure that is used to store keys and it's value in a table called hashing table, by using modulo operator to get a range of key values. and a hash function to compute an index into an array in which an element will be inserted or searched. 
 
@@ -197,8 +203,40 @@ O(log(n)) for every opration, but the worst case is going to  be O(n)
 
 ## Tries
 
+Definition
+
+- A type of tree to store character. The most common use is to store words and validate if that word in the dictionary.
+
+How it's work
+
+- store a character as its data. The node representing a part/whole word
+
+Where it's used
+
+- it can be helpful to store dictionary data using "Tries"
+
+Big 0
+
+- O(n)
+
 ## Balancing Binary Trees (AVL Tree)
 
+Definition
+
+- Is a binary tree structure in which the difference of heights of left and right subtrees of any node is less than or equal to one.
+
+How it's work
+
+- AVL trees are height balance trees, operations like insertion and deletion have low time complexity.
+
+Where it's used
+
+- it can be used for search, insert, and delete
+
+Big 0
+
+- Search, Insert, and Delete => O(log n)
+=======
 
 
 
