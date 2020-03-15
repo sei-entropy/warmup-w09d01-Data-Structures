@@ -26,9 +26,28 @@ Thus, it becomes a data structure in which insertion and search operations are v
 ![HashTables ](./img/hashTble.jpg)
 
 ## Sets 
+A Set is an abstract data type that can store certain values, without any particular order, and no repeated values. It is a computer implementation of the mathematical concept of a finite Set. From Wikipedia
 
+The Set data structure is usually used to test whether elements belong to set of values. Rather then only containing elements, Sets are more used to perform operations on multiple values at once with methods such as union, intersect, etc…
+
+Complexity
+Average	 	 	 
+Access	Search	Insertion	Deletion
+-	O(n)	O(n)	O(n)
 ## Binary Trees 
+A binary tree is a special type of tree in which every node or vertex has either no child node or one child node or two child nodes. A binary tree is an important class of a tree data structure in which a node can have at most two children.
+
+Child node in a binary tree on the left is termed as 'left child node' and node in the right is termed as the 'right child node.'
+### type of binary tree
+* full binary tree 
+![Binary](./img/Full-Binary-Tree.png)
+* complete binary tree 
+![Binary](./img/Complete-Binary-Tree.png)
+
+
 
 ## Tries
+Trie: Trie is an efficient information reTrieval data structure. Using Trie, search complexities can be brought to an optimal limit (key length). If we store keys in the binary search tree, a well-balanced BST will need time proportional to M * log N, where M is maximum string length and N is the number of keys in the tree. Using Trie, we can search the key in O(M) time. However, the penalty is on Trie storage requirements.
+
 
 ## Balancing Binary Trees (AVL Tree)
