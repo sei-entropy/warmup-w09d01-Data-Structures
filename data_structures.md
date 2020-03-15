@@ -8,7 +8,7 @@
 
 ## Queues
 
-## Hash Tables 
+## Hash Tables
 
 Hashing is a way of storing data that in an average case scenario allows for constant time storage and retrieval.
 This can be achieved by using an array.
@@ -24,16 +24,16 @@ Hash Table Operations:
 
 Hash tables support fast insert and search:
 
-- O(1) average case performance 
-- Deletion possible, but degrades performance 
+- O(1) average case performance
+- Deletion possible, but degrades performance
 - Not suited if ordering of elements is important
 - Many applications
-
 
 ## Sets 
 
 ## Binary Trees 
-
+- A binary tree is a finite set of elements that are either empty or is partitioned into three disjointsubsets. The first subset contains a single element called the root of the tree. The other twosubsets are themselves binary trees called the left and right subtrees of the original tree. Aleft or right subtree can be empty. 
+- Each element of a binary tree is called a node of the tree. The following figure shows a binarytree with 9 nodes where A is the root.
 ## Tries
 
 ## Balancing Binary Trees (AVL Tree)
